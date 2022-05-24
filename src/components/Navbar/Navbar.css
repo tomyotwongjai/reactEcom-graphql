@@ -1,0 +1,46 @@
+.nav__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 234px;
+    height: 56px;
+}
+
+.nav__container, .navbar__list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-transform: uppercase; 
+    list-style: none;
+    bottom: 0px;
+}
+.navbar__item {
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ .nav__link {
+    line-height: 120%;
+    margin-bottom: 2rem;
+    color: #1d1f22;
+    text-decoration: none;
+     padding: 4px 16px 32px 32px; 
+    cursor: pointer;
+}
+.navbar__logo{    
+    position: absolute;
+    box-sizing: border-box;
+    width: 41px;
+    height: 56px;
+    overflow: hidden;
+    border: none;
+    background-color: #fff;
+    left: 50%;
+    top: calc(50% - 41px/2 + 4.5px);
+    transform: translateX(-50%);
+    transition: all 250ms;
+}
