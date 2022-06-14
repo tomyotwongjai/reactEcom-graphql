@@ -1,0 +1,38 @@
+.currency-container {
+    border: none;
+    outline: none;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    background-color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    width: 8vw;
+    padding: 20px 2vw 20px 1vw;
+    gap: 10px;
+    position: absolute;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  span {
+    display: inline;
+  }
+  span:hover {
+    color: #5ece7b;
+  }
+  svg {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+  }
